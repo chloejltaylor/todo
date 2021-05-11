@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+.todo-list {
+  flex: 1;
+  display: grid;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header, .footer {
+  background: peachpuff;
+  height: 100px;
+}
+
+.header {
+  font-size: 2rem;
+}
+
+
+.footer {
+  font-size: .8rem;
+}
